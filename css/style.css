@@ -1,0 +1,166 @@
+body {
+    font-size: 12px;
+}
+
+.caixa-banner {
+    background-image: url(../img/banner-02.png);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo1{
+    font-size: 2rem;
+    text-shadow: 2px 2px black;
+
+}
+
+.subtitulo1{
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
+.link-sobre {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: violet;
+    font-weight: bold;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.link-cv{
+    text-decoration:none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: fuchsia;
+    border: inset fuchsia;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.caixa-sobre {
+    display: flex;
+    justify-content:space-around;
+    font-size: 20px;
+}
+
+.nome {
+    font-weight: lighter;
+    color: fuchsia;
+}
+
+.lado1 {
+    width: 35%;
+    color: rgb(14, 13, 13);
+
+}
+
+.margin-texto {
+    margin-bottom: 40px;
+    text-align: justify;
+    color: rgb(14, 13, 13);
+}
+
+.lado2 {
+    width: 40%;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 35px;
+    color:gray;
+    
+}
+
+ul {
+    line-height: 2.0;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(31, 30, 30)
+}
+
+.titulo-sobre {
+    margin-left: 75px;
+    font-size: 40px;
+    color: grey;
+
+}
+
+.caixa-links {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.links {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+
+}
+
+.icone {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.footer_copyright {
+    text-align: center;
+
+}
+
+@media(max-width: 710px) {
+    .caixa-sobre {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+.lado1 {
+    width: 80%;
+    text-align: justify;
+}
+
+.lado2 {
+    width: 80%;
+
+}
+
+.titulo-sobre {
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.link {
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+
+}
+
+.icone {
+    margin-top: 40px;
+    height: 100px;
+    margin-top: 30px;
+
+}
+
+}
